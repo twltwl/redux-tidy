@@ -1,0 +1,16 @@
+{
+  "name": "redux-tidy",
+  "version": "1.0.0",
+  "description": "Simple helpers to organize reducers",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel helpers.js --presets=@babel/preset-env --out-file index.js"
+  },
+  "author": "twltwl",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
