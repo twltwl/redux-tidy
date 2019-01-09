@@ -3,8 +3,10 @@
 Simple helpers to organize your reducers
 
 Provides two helper functions, makeReducer and organizeReducers
-makeReducer(name: string, initialState: object, transitions: object)
-organizeReducers(reducers: array<reducer>, getInitialState: boolean)
+```javascript
+makeReducer(name: String, initialState: Object, transitions: Object)
+organizeReducers(reducers: Array<reducer>, getInitialState: Boolean)
+```
 
 ## Usage
 ```javascript
