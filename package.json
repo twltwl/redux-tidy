@@ -1,6 +1,6 @@
 {
   "name": "redux-tidy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple helpers to organize reducers",
   "main": "index.js",
   "scripts": {
