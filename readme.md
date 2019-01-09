@@ -5,7 +5,7 @@ Simple helpers to organize your reducers
 Provides two helper functions, makeReducer and organizeReducers
 ```javascript
 makeReducer(name: String, initialState: Object, transitions: Object)
-organizeReducers(reducers: Array<reducer>, getInitialState: Boolean)
+organizeReducers(reducers: Array<reducer>, getAsFunctions: Boolean)
 ```
 
 ## Usage
